@@ -5,7 +5,7 @@
 int main(void)
 {
   int i;
-  char* a = "1234567890";
+  char* a = "1234567890\0";
   char b[5];
   /*int *array = malloc(5 * sizeof(int));
 
@@ -23,7 +23,7 @@ int main(void)
     }
   }*/
     
-  (void) strcpy(b, a);
+  b = strcpy(b, a);
   printf ("--%s-- in and --%s-- out", a,b);
 
   return 0;
