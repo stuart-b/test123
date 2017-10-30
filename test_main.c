@@ -14,7 +14,7 @@ int func(int argc)
   int b = 4;
   int c;
   short d = 0;
-  d = k(&b);
+  d = k(&c);
   //d = c + 0;
   return 4;
 }
