@@ -4,16 +4,13 @@
 
 int func(int argc)
 {
-  char a[1];
-  char b[1];
-  int i = 0;
-  (void) gets(a);
-  while (i < argc)
-  {
-    a[i] = b[i];
-    i++;
-  }
-  return 42;
+  unsigned int a = 512;
+  int b = 4;
+  int c;
+  unsigned int d = 0;
+  
+  d = b;
+  
 }
 
 
