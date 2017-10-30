@@ -17,13 +17,13 @@ int main(void)
     array[3] = 0;
     array[4] = 1;
 
-    for (i = 0; i <= 5; i++) 
+    for (i = 0; i < 5; i++) 
     {
           printf("array[%d] = %d\n", i, array[i]);
     }
   }
     
-  (void) strcpy(b, a);
+  (void) strcpy(a, b);
   printf ("--%s-- in and --%s-- out", a,b);
 
   return 0;
