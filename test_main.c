@@ -10,7 +10,7 @@ int func(int argc)
   unsigned int d = 0;
   
   d = b;
-  
+  return 4;
 }
 
 
