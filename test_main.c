@@ -23,7 +23,7 @@ int main(void)
     }
   }*/
     
-  b = strcpy(b, a);
+  (void) strcpy(b, a);
   printf ("--%s-- in and --%s-- out", a,b);
 
   return 0;
