@@ -8,9 +8,9 @@ int main(void)
   //char* a = "1234567890\0";
   char a[5];
   char b[5];
-  a[5] = 'a';
-  b[5] = 'b';
-  
+  a[1] = 'a';
+  b[1] = 'b';
+  sh fd = fd;
 
   return 0;
 }
