@@ -4,7 +4,7 @@
 
 int k(int *a)
 {
-  int b = a;
+  int b = *(a);
   return b;
 }
 
