@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-  int i;
+    int i;
   char* a = "1234567890";
    char b[5];
   int *array = malloc(5 * sizeof(int));
@@ -21,7 +22,7 @@ int main(void)
     }
   }
   (void) strcpy(b, a);
-   
+   printf ("--%s-- in and --%s-- out", a,b);
 
   return 0;
 }
