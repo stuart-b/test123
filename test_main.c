@@ -4,10 +4,10 @@
 
 int func(int argc)
 {
-  char a[10];
-  char b[10];
+  char a[1];
+  char b[1];
   int i = 0;
-  while (i < argc)
+  while (i <= argc)
   {
     a[i] = b[i];
     i++;
@@ -19,6 +19,6 @@ int func(int argc)
 
 int main(int argc, char** argv)
 {
-  func(100);
+  func(argc);
   return 0;
 }
