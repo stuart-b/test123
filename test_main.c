@@ -2,15 +2,15 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void)
+int main(int argc, char** argv)
 {
-  int i;
-  //char* a = "1234567890\0";
-  char a[5];
-  char b[5];
-  a[1] = 'a';
-  b[1] = 'b';
-  sh fd = fd;
-
+  char a[10];
+  char b[10];
+  int i = 0;
+  while (i < argc)
+  {
+    a[i] = b[i];
+    i++;
+  }
   return 0;
 }
