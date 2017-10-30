@@ -7,7 +7,7 @@ int func(int argc)
   char a[1];
   char b[1];
   int i = 0;
-  while (i <= argc)
+  while (i < argc)
   {
     a[i] = b[i];
     i++;
