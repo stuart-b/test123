@@ -2,11 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int k(int *a)
-{
-  int b = *(a);
-  return b;
-}
+extern int k(int *a);
 
 int func(int argc)
 {
