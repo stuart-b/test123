@@ -4,12 +4,13 @@
 
 int main(void)
 {
-    int i;
+  int i;
   char* a = "1234567890";
-   char b[5];
+  char b[5];
   int *array = malloc(5 * sizeof(int));
 
-  if (array != NULL) {
+  if (array != NULL) 
+  {
     array[0] = 13;
     array[1] = 7;
     array[2] = 42;
@@ -21,8 +22,9 @@ int main(void)
           printf("array[%d] = %d\n", i, array[i]);
     }
   }
+    
   (void) strcpy(b, a);
-   printf ("--%s-- in and --%s-- out", a,b);
+  printf ("--%s-- in and --%s-- out", a,b);
 
   return 0;
 }
