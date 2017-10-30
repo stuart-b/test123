@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char** argv)
+int func(int argc)
 {
   char a[10];
   char b[10];
@@ -12,5 +12,13 @@ int main(int argc, char** argv)
     a[i] = b[i];
     i++;
   }
+  return 42;
+}
+
+
+
+int main(int argc, char** argv)
+{
+  func(100);
   return 0;
 }
