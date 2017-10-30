@@ -9,7 +9,7 @@ int func(int argc)
   int c;
   short d = 0;
   
-  d = b;
+  d = c + 0;
   return 4;
 }
 
