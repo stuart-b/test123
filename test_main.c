@@ -16,7 +16,7 @@ int error2(int arg)
 {
   char a[2];
   char b[2];
-  if (argc > 10)
+  if (arg > 10)
   {
     a[arg] = 'm';
   }
