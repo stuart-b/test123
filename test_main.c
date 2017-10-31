@@ -9,7 +9,7 @@ int error(int arg)
   
   a[arg] = 'm';
   
-  return argc;
+  return arg;
 }
 
 int error2(int arg)
@@ -20,7 +20,7 @@ int error2(int arg)
   {
     a[arg] = 'm';
   }
-  return argc;
+  return arg;
 }
 
 
